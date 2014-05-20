@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2605DA52191E27D300FB9D91 /* Photo.m in Sources */ = {isa = PBXBuildFile; fileRef = 2605DA51191E27D300FB9D91 /* Photo.m */; };
+		2605DA55191E27D300FB9D91 /* Photogragher.m in Sources */ = {isa = PBXBuildFile; fileRef = 2605DA54191E27D300FB9D91 /* Photogragher.m */; };
+		2633C80F1914831300C55BB2 /* imageModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2633C80D1914831300C55BB2 /* imageModel.xcdatamodeld */; };
+		26BA3DDF190B530C007A4B3A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26BA3DDE190B530C007A4B3A /* Foundation.framework */; };
+		26BA3DE1190B530C007A4B3A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26BA3DE0190B530C007A4B3A /* CoreGraphics.framework */; };
+		26BA3DE3190B530C007A4B3A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26BA3DE2190B530C007A4B3A /* UIKit.framework */; };
+		26BA3DE9190B530C007A4B3A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 26BA3DE7190B530C007A4B3A /* InfoPlist.strings */; };
+		26BA3DEB190B530C007A4B3A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 26BA3DEA190B530C007A4B3A /* main.m */; };
+		26BA3DEF190B530C007A4B3A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 26BA3DEE190B530C007A4B3A /* AppDelegate.m */; };
+		26BA3DF5190B530C007A4B3A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26BA3DF4190B530C007A4B3A /* ViewController.m */; };
+		26BA3DF7190B530C007A4B3A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26BA3DF6190B530C007A4B3A /* Images.xcassets */; };
+		26BA3DFE190B530C007A4B3A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26BA3DFD190B530C007A4B3A /* XCTest.framework */; };
+		26BA3DFF190B530C007A4B3A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26BA3DDE190B530C007A4B3A /* Foundation.framework */; };
+		26BA3E00190B530C007A4B3A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26BA3DE2190B530C007A4B3A /* UIKit.framework */; };
+		26BA3E08190B530C007A4B3A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 26BA3E06190B530C007A4B3A /* InfoPlist.strings */; };
+		26BA3E0A190B530C007A4B3A /* imageViwerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 26BA3E09190B530C007A4B3A /* imageViwerTests.m */; };
+		26BA3E14190B5679007A4B3A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26BA3E13190B5679007A4B3A /* Main.storyboard */; };
+		26BA3E1A190BBE07007A4B3A /* PhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26BA3E19190BBE07007A4B3A /* PhotoViewController.m */; };
+		26E2B6E4192742AD00D08DF0 /* Photo+WebPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = 26E2B6E3192742AD00D08DF0 /* Photo+WebPhoto.m */; };
+		26E2B6E71927532200D08DF0 /* Photogragher+WebPhotogragher.m in Sources */ = {isa = PBXBuildFile; fileRef = 26E2B6E61927532200D08DF0 /* Photogragher+WebPhotogragher.m */; };
+		26E2B6EA192769F900D08DF0 /* CoreDataTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26E2B6E9192769F900D08DF0 /* CoreDataTableViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		26BA3E01190B530C007A4B3A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26BA3DD3190B530C007A4B3A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 26BA3DDA190B530C007A4B3A;
+			remoteInfo = imageViwer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2605DA50191E27D300FB9D91 /* Photo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Photo.h; sourceTree = "<group>"; };
+		2605DA51191E27D300FB9D91 /* Photo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Photo.m; sourceTree = "<group>"; };
+		2605DA53191E27D300FB9D91 /* Photogragher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Photogragher.h; sourceTree = "<group>"; };
+		2605DA54191E27D300FB9D91 /* Photogragher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Photogragher.m; sourceTree = "<group>"; };
+		2633C80E1914831300C55BB2 /* imageModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = imageModel.xcdatamodel; sourceTree = "<group>"; };
+		26BA3DDB190B530C007A4B3A /* imageViwer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = imageViwer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		26BA3DDE190B530C007A4B3A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		26BA3DE0190B530C007A4B3A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		26BA3DE2190B530C007A4B3A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		26BA3DE6190B530C007A4B3A /* imageViwer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "imageViwer-Info.plist"; sourceTree = "<group>"; };
+		26BA3DE8190B530C007A4B3A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		26BA3DEA190B530C007A4B3A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		26BA3DEC190B530C007A4B3A /* imageViwer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "imageViwer-Prefix.pch"; sourceTree = "<group>"; };
+		26BA3DED190B530C007A4B3A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		26BA3DEE190B530C007A4B3A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		26BA3DF3190B530C007A4B3A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		26BA3DF4190B530C007A4B3A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		26BA3DF6190B530C007A4B3A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		26BA3DFC190B530C007A4B3A /* imageViwerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = imageViwerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		26BA3DFD190B530C007A4B3A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		26BA3E05190B530C007A4B3A /* imageViwerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "imageViwerTests-Info.plist"; sourceTree = "<group>"; };
+		26BA3E07190B530C007A4B3A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		26BA3E09190B530C007A4B3A /* imageViwerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = imageViwerTests.m; sourceTree = "<group>"; };
+		26BA3E13190B5679007A4B3A /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		26BA3E18190BBE07007A4B3A /* PhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoViewController.h; sourceTree = "<group>"; };
+		26BA3E19190BBE07007A4B3A /* PhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoViewController.m; sourceTree = "<group>"; };
+		26E2B6E2192742AD00D08DF0 /* Photo+WebPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Photo+WebPhoto.h"; sourceTree = "<group>"; };
+		26E2B6E3192742AD00D08DF0 /* Photo+WebPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Photo+WebPhoto.m"; sourceTree = "<group>"; };
+		26E2B6E51927532200D08DF0 /* Photogragher+WebPhotogragher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Photogragher+WebPhotogragher.h"; sourceTree = "<group>"; };
+		26E2B6E61927532200D08DF0 /* Photogragher+WebPhotogragher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Photogragher+WebPhotogragher.m"; sourceTree = "<group>"; };
+		26E2B6E8192769F900D08DF0 /* CoreDataTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CoreDataTableViewController.h; path = CoreDataTableViewController/CoreDataTableViewController.h; sourceTree = "<group>"; };
+		26E2B6E9192769F900D08DF0 /* CoreDataTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CoreDataTableViewController.m; path = CoreDataTableViewController/CoreDataTableViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		26BA3DD8190B530C007A4B3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26BA3DE1190B530C007A4B3A /* CoreGraphics.framework in Frameworks */,
+				26BA3DE3190B530C007A4B3A /* UIKit.framework in Frameworks */,
+				26BA3DDF190B530C007A4B3A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26BA3DF9190B530C007A4B3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26BA3DFE190B530C007A4B3A /* XCTest.framework in Frameworks */,
+				26BA3E00190B530C007A4B3A /* UIKit.framework in Frameworks */,
+				26BA3DFF190B530C007A4B3A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		26BA3DD2190B530C007A4B3A = {
+			isa = PBXGroup;
+			children = (
+				26BA3DE4190B530C007A4B3A /* imageViwer */,
+				26BA3E03190B530C007A4B3A /* imageViwerTests */,
+				26BA3DDD190B530C007A4B3A /* Frameworks */,
+				26BA3DDC190B530C007A4B3A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		26BA3DDC190B530C007A4B3A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				26BA3DDB190B530C007A4B3A /* imageViwer.app */,
+				26BA3DFC190B530C007A4B3A /* imageViwerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		26BA3DDD190B530C007A4B3A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				26BA3DDE190B530C007A4B3A /* Foundation.framework */,
+				26BA3DE0190B530C007A4B3A /* CoreGraphics.framework */,
+				26BA3DE2190B530C007A4B3A /* UIKit.framework */,
+				26BA3DFD190B530C007A4B3A /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		26BA3DE4190B530C007A4B3A /* imageViwer */ = {
+			isa = PBXGroup;
+			children = (
+				2633C80D1914831300C55BB2 /* imageModel.xcdatamodeld */,
+				2605DA53191E27D300FB9D91 /* Photogragher.h */,
+				26E2B6E51927532200D08DF0 /* Photogragher+WebPhotogragher.h */,
+				26E2B6E61927532200D08DF0 /* Photogragher+WebPhotogragher.m */,
+				2605DA54191E27D300FB9D91 /* Photogragher.m */,
+				2605DA50191E27D300FB9D91 /* Photo.h */,
+				2605DA51191E27D300FB9D91 /* Photo.m */,
+				26E2B6E2192742AD00D08DF0 /* Photo+WebPhoto.h */,
+				26E2B6E3192742AD00D08DF0 /* Photo+WebPhoto.m */,
+				26E2B6E8192769F900D08DF0 /* CoreDataTableViewController.h */,
+				26E2B6E9192769F900D08DF0 /* CoreDataTableViewController.m */,
+				26BA3E13190B5679007A4B3A /* Main.storyboard */,
+				26BA3E18190BBE07007A4B3A /* PhotoViewController.h */,
+				26BA3E19190BBE07007A4B3A /* PhotoViewController.m */,
+				26BA3DF3190B530C007A4B3A /* ViewController.h */,
+				26BA3DF4190B530C007A4B3A /* ViewController.m */,
+				26BA3DF6190B530C007A4B3A /* Images.xcassets */,
+				26BA3DE5190B530C007A4B3A /* Supporting Files */,
+			);
+			path = imageViwer;
+			sourceTree = "<group>";
+		};
+		26BA3DE5190B530C007A4B3A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				26BA3DED190B530C007A4B3A /* AppDelegate.h */,
+				26BA3DEE190B530C007A4B3A /* AppDelegate.m */,
+				26BA3DE6190B530C007A4B3A /* imageViwer-Info.plist */,
+				26BA3DE7190B530C007A4B3A /* InfoPlist.strings */,
+				26BA3DEA190B530C007A4B3A /* main.m */,
+				26BA3DEC190B530C007A4B3A /* imageViwer-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		26BA3E03190B530C007A4B3A /* imageViwerTests */ = {
+			isa = PBXGroup;
+			children = (
+				26BA3E09190B530C007A4B3A /* imageViwerTests.m */,
+				26BA3E04190B530C007A4B3A /* Supporting Files */,
+			);
+			path = imageViwerTests;
+			sourceTree = "<group>";
+		};
+		26BA3E04190B530C007A4B3A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				26BA3E05190B530C007A4B3A /* imageViwerTests-Info.plist */,
+				26BA3E06190B530C007A4B3A /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		26BA3DDA190B530C007A4B3A /* imageViwer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26BA3E0D190B530C007A4B3A /* Build configuration list for PBXNativeTarget "imageViwer" */;
+			buildPhases = (
+				26BA3DD7190B530C007A4B3A /* Sources */,
+				26BA3DD8190B530C007A4B3A /* Frameworks */,
+				26BA3DD9190B530C007A4B3A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = imageViwer;
+			productName = imageViwer;
+			productReference = 26BA3DDB190B530C007A4B3A /* imageViwer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		26BA3DFB190B530C007A4B3A /* imageViwerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26BA3E10190B530C007A4B3A /* Build configuration list for PBXNativeTarget "imageViwerTests" */;
+			buildPhases = (
+				26BA3DF8190B530C007A4B3A /* Sources */,
+				26BA3DF9190B530C007A4B3A /* Frameworks */,
+				26BA3DFA190B530C007A4B3A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				26BA3E02190B530C007A4B3A /* PBXTargetDependency */,
+			);
+			name = imageViwerTests;
+			productName = imageViwerTests;
+			productReference = 26BA3DFC190B530C007A4B3A /* imageViwerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		26BA3DD3190B530C007A4B3A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = dastone.cn;
+				TargetAttributes = {
+					26BA3DDA190B530C007A4B3A = {
+						DevelopmentTeam = 5S4JB7D9WU;
+					};
+					26BA3DFB190B530C007A4B3A = {
+						TestTargetID = 26BA3DDA190B530C007A4B3A;
+					};
+				};
+			};
+			buildConfigurationList = 26BA3DD6190B530C007A4B3A /* Build configuration list for PBXProject "imageViwer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 26BA3DD2190B530C007A4B3A;
+			productRefGroup = 26BA3DDC190B530C007A4B3A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				26BA3DDA190B530C007A4B3A /* imageViwer */,
+				26BA3DFB190B530C007A4B3A /* imageViwerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		26BA3DD9190B530C007A4B3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26BA3DF7190B530C007A4B3A /* Images.xcassets in Resources */,
+				26BA3DE9190B530C007A4B3A /* InfoPlist.strings in Resources */,
+				26BA3E14190B5679007A4B3A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26BA3DFA190B530C007A4B3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26BA3E08190B530C007A4B3A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		26BA3DD7190B530C007A4B3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26E2B6E4192742AD00D08DF0 /* Photo+WebPhoto.m in Sources */,
+				26BA3DF5190B530C007A4B3A /* ViewController.m in Sources */,
+				2605DA52191E27D300FB9D91 /* Photo.m in Sources */,
+				26BA3DEF190B530C007A4B3A /* AppDelegate.m in Sources */,
+				26E2B6EA192769F900D08DF0 /* CoreDataTableViewController.m in Sources */,
+				2633C80F1914831300C55BB2 /* imageModel.xcdatamodeld in Sources */,
+				26E2B6E71927532200D08DF0 /* Photogragher+WebPhotogragher.m in Sources */,
+				26BA3DEB190B530C007A4B3A /* main.m in Sources */,
+				26BA3E1A190BBE07007A4B3A /* PhotoViewController.m in Sources */,
+				2605DA55191E27D300FB9D91 /* Photogragher.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26BA3DF8190B530C007A4B3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26BA3E0A190B530C007A4B3A /* imageViwerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		26BA3E02190B530C007A4B3A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 26BA3DDA190B530C007A4B3A /* imageViwer */;
+			targetProxy = 26BA3E01190B530C007A4B3A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		26BA3DE7190B530C007A4B3A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26BA3DE8190B530C007A4B3A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		26BA3E06190B530C007A4B3A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26BA3E07190B530C007A4B3A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		26BA3E0B190B530C007A4B3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		26BA3E0C190B530C007A4B3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		26BA3E0E190B530C007A4B3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "imageViwer/imageViwer-Prefix.pch";
+				INFOPLIST_FILE = "imageViwer/imageViwer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		26BA3E0F190B530C007A4B3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "imageViwer/imageViwer-Prefix.pch";
+				INFOPLIST_FILE = "imageViwer/imageViwer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		26BA3E11190B530C007A4B3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/imageViwer.app/imageViwer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "imageViwer/imageViwer-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "imageViwerTests/imageViwerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		26BA3E12190B530C007A4B3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/imageViwer.app/imageViwer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "imageViwer/imageViwer-Prefix.pch";
+				INFOPLIST_FILE = "imageViwerTests/imageViwerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		26BA3DD6190B530C007A4B3A /* Build configuration list for PBXProject "imageViwer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26BA3E0B190B530C007A4B3A /* Debug */,
+				26BA3E0C190B530C007A4B3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26BA3E0D190B530C007A4B3A /* Build configuration list for PBXNativeTarget "imageViwer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26BA3E0E190B530C007A4B3A /* Debug */,
+				26BA3E0F190B530C007A4B3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26BA3E10190B530C007A4B3A /* Build configuration list for PBXNativeTarget "imageViwerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26BA3E11190B530C007A4B3A /* Debug */,
+				26BA3E12190B530C007A4B3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2633C80D1914831300C55BB2 /* imageModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2633C80E1914831300C55BB2 /* imageModel.xcdatamodel */,
+			);
+			currentVersion = 2633C80E1914831300C55BB2 /* imageModel.xcdatamodel */;
+			name = imageModel.xcdatamodeld;
+			path = ../imageModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 26BA3DD3190B530C007A4B3A /* Project object */;
+}
